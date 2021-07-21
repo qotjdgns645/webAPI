@@ -5,10 +5,6 @@
 	<title>Home</title>
 </head>
 <body>
-	<form action="/info" method="POST">
-		<input type='text' name="userName">
-		<button type="submit">검색</button>
-	</form>
-
+	${res}
 </body>
 </html>
