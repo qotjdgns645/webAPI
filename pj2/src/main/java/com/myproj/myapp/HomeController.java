@@ -37,7 +37,7 @@ public class HomeController {
 		System.out.println("#####################"+name);
 		mav.addObject("Name",name);
 		
-		mav.setViewName("test");
+		mav.setViewName("info");
 		
 		return mav;
 	}
